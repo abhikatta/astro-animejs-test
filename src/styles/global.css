@@ -1,1 +1,68 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: "Big Shoulders Stencil";
+  src: url("/fonts/Big_Shoulders_Stencil/BigShouldersStencil-VariableFont_wght.woff2")
+    format("truetype");
+  font-weight: 300 900;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "Boldonse";
+  src: url("/fonts/Boldonse/Boldonse-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "Syne";
+  src: url("/fonts/Syne/Syne-VariableFont_wght.woff2") format("woff2");
+  font-weight: 100 800;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "Lemon Milk";
+  src: url("/fonts/Lemon_Milk/LEMONMILK-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "Lemon Milk";
+  src: url("/fonts/Lemon_Milk/LEMONMILK-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "Lemon Milk";
+  src: url("/fonts/Lemon_Milk/LEMONMILK-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: "Lemon Milk";
+  src: url("/fonts/Lemon_Milk/LEMONMILK-Bold.woff2") format("woff2");
+  font-weight: 800;
+  font-display: auto;
+}
+
+:root {
+  --font-lemonMilk: "Lemon Milk", sans-serif;
+  --font-bigshoulders: "Big Shoulders Stencil", sans-serif;
+  --font-boldonse: "Boldonse", sans-serif;
+  --font-syne: "Syne", sans-serif;
+}
+
+@theme inline {
+  --font-bigshoulders: var(--font-bigshoulders), sans-serif;
+  --font-boldonse: var(--font-boldonse), sans-serif;
+  --font-syne: var(--font-syne), sans-serif;
+  --font-lemonMilk: var(--font-lemonMilk), sans-serif;
+
+  --color-primaryYellow: #fff602;
+  --color-primaryBlue: #1da1fe;
+}
