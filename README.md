@@ -1,3 +1,6 @@
+this was a bad idea...
+
+
 # Astro Starter Kit: Basics
 
 ```sh
